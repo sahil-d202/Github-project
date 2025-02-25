@@ -19,7 +19,8 @@ body {
   display: flex;
   justify-content: space-between;
   padding-right: 20px;
-  position: fixed;
+
+  border-bottom: 1px solid #aaa;
 }
 .header-left {
   display: flex;
@@ -137,4 +138,71 @@ body {
   border: 1px solid #aaa;
   padding: 8px;
   border-radius: 10px;
+}
+
+.sidebar {
+  background-color: #0f0f0f;
+  width: 20vw;
+  height: 200vh;
+  color: white;
+  padding-top: 8vh;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-right: 1px solid #aaa;
+}
+.sidebar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.para-4 {
+  font-weight: bold;
+  font-size: 14px;
+}
+.button-1 {
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 10px;
+  height: 32px;
+  width: 65px;
+  color: white;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.down-1 {
+  padding-bottom: 15px;
+}
+.down-1 input {
+  background-color: #0f0f0f;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  color: white;
+  padding: 8px;
+  width: 280px;
+  padding-bottom: 10px;
+}
+.down-2 {
+}
+.project {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 8px;
+}
+.project .img-7 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  gap: 5px;
+}
+.tag a {
+  color: #aaa;
+  font-size: 12px;
+  text-decoration: none;
+}
+.tag a:hover {
+  color: rgb(68, 68, 248);
 }
